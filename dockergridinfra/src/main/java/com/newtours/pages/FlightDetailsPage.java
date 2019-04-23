@@ -13,7 +13,7 @@ public class FlightDetailsPage {
 	private WebDriver driver;
 	private WebDriverWait wait;
 	
-	@FindBy(name="name")
+	@FindBy(name="passCount")
 	private WebElement passengerDropdown;
 	
 	@FindBy(name="findFlights")
